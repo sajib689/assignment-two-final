@@ -1,0 +1,302 @@
+/*
+--------------------------------
+ ------------common css---------
+--------------------------------
+ */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/*
+--------------------------------
+ ------------common css End-----
+--------------------------------
+ */
+/*---- import css here------ */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen:wght@700&family=Poppins:wght@500&display=swap");
+
+/*----- import css end here----- */
+/*-------------
+ 1st section css start from here
+ -------------- */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 1110px;
+  height: 541px;
+  background-color: #161616;
+  margin-top: 2%;
+  margin-bottom: 105px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.main-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.detail-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.detail-paragraph {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  justify-content: center;
+  margin-top: 6%;
+}
+.first-button a {
+  text-decoration: none;
+  color: white;
+  padding: 16px 36px;
+  background-color: #dd0000;
+  border-radius: 5px;
+}
+.first-button {
+  margin-top: 10%;
+}
+.fa-angle-right.margin {
+  margin-left: 10px;
+}
+.banner-image img {
+  width: 581px;
+  height: 541px;
+}
+.detail {
+  margin-top: 5%;
+}
+/* ----===
+ section one end is here css 
+ ---=== */
+
+.container-two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  overflow: hidden;
+}
+.main-part {
+  width: 1300px;
+  margin-left: 50px;
+  overflow: hidden;
+}
+.main-container {
+  /* box-shadow: 1px 1px 1px 1px gray; */
+  padding: 5px;
+  border-radius: 5px;
+}
+.button-width {
+  background-color: #161616;
+  border-radius: 10px;
+  float: left;
+  border: 1px solid gray;
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  top: 7px;
+  width: 262px;
+  height: 262px;
+  overflow: hidden;
+}
+.button-area button a {
+  text-decoration: none;
+  color: black;
+}
+
+.button-area button {
+  padding: 16px 34px;
+  height: 54px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  width: 89%;
+  border-radius: 5px;
+  margin: 5% 5%;
+  white-space: nowrap;
+}
+
+.button-area button:hover {
+  background-color: red;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.main-image img {
+  width: 312px;
+  height: 175px;
+  margin-bottom: 24px;
+  justify-content: center;
+}
+
+.main-content .title-one {
+  font-size: 16px;
+  padding: 4px 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: 500;
+}
+.main-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #161616;
+  margin-top: 20px;
+}
+.hour {
+  font-size: 16px;
+  font-weight: 400;
+  color: #161616b2;
+}
+.day {
+  font-size: 16px;
+}
+.time-icon img {
+  width: 18px;
+  height: 18px;
+}
+.chat-icon img {
+  width: 24px;
+  height: 24px;
+}
+/* ---------------
+section two css end here
+------------------ */
+/* ---------------
+fotter section is start from here
+------------------- */
+.footer-container {
+  background-color: black;
+  height: 445px;
+  width: 100%;
+  margin-top: 150px;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  margin-top: 116px;
+}
+.footer-hr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 50px;
+}
+.nav-container .footer-nav li {
+  list-style: none;
+  padding: 15px;
+}
+.nav-container .footer-nav li a {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+.footer-nav {
+  display: flex;
+  margin-left: 307px;
+  margin-right: 307px;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-icon {
+  margin-left: 43%;
+  margin-right: 43%;
+  padding: 10px;
+}
+
+.footer-icon a {
+  padding: 10px;
+  color: white;
+}
+.footer-icon a:hover {
+  color: gray;
+}
+
+/* footer css end here */
+/* media section one is start */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 767px;
+    height: 393px;
+  }
+  .detail-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .banner-image img {
+    width: 312px;
+    height: 392px;
+  }
+  .detail {
+    margin-left: 40px;
+    margin-bottom: 12%;
+  }
+  .container-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    overflow: hidden;
+  }
+  .button-width {
+    margin-left: 40%;
+    background-color: white;
+    width: 14%;
+    border: 0px;
+  }
+  .button-area button {
+    width: 150px;
+    height: 70px;
+    padding: 20px 27px;
+    background-color: red;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .container-two {
+    margin-top: 23%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 21%;
+    margin-right: 21%;
+  }
+  .footer-nav {
+    margin-left: 22px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .footer-icon {
+    display: flex;
+  }
+}
+/* section one is end here */
+/* media section two is start from here */
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 879px;
+    height: 950px;
+    margin-left: 67%;
+  }
+  .banner-image img {
+    margin-top: 4%;
+  }
+  .main-div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
