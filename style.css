@@ -289,14 +289,39 @@ fotter section is start from here
 /* media section two is start from here */
 @media only screen and (max-width: 767px) {
   .container {
-    width: 879px;
-    height: 950px;
+    width: 382px;
+    height: 676px;
     margin-left: 67%;
   }
   .banner-image img {
     margin-top: 4%;
+    width: 376px;
+    height: 442px;
+    margin-left: 38px;
   }
   .main-div {
     grid-template-columns: repeat(1, 1fr);
+    width: 0;
+  }
+  .detail {
+    margin-left: -30px;
+    text-align: center;
+  }
+  .detail-title {
+    font-size: 30px;
+  }
+  .detail-paragraph {
+    font-size: 10px;
+  }
+  .button-width {
+    margin-left: 20px;
+  }
+  .button-width {
+    margin-left: 611px;
+    position: relative;
+  }
+  .container-two {
+    grid-template-rows: repeat(1fr);
+    margin-top: 295px;
   }
 }
