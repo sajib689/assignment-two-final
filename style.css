@@ -233,7 +233,7 @@ fotter section is start from here
 /* media section one is start */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
-    width: 767px;
+    width: 700px;
     height: 393px;
   }
   .detail-title {
