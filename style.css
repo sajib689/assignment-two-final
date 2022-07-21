@@ -66,6 +66,7 @@ main {
   background-color: #dd0000;
   border-radius: 5px;
 }
+
 /* animation area */
 .first-button:hover {
   transform: translateY(35px);
@@ -138,6 +139,9 @@ main {
   height: 262px;
   overflow: hidden;
 }
+#bg-color {
+  background-color: red;
+}
 .button-area button a {
   text-decoration: none;
   color: black;
@@ -153,12 +157,6 @@ main {
   border-radius: 5px;
   margin: 5% 5%;
   white-space: nowrap;
-}
-
-.button-area button:hover {
-  background-color: red;
-  transition: 0.5s;
-  cursor: pointer;
 }
 
 .main-image img {
@@ -198,6 +196,18 @@ main {
 .chat-icon img {
   width: 24px;
   height: 24px;
+}
+.view-all {
+  text-align: center;
+  margin-top: 7%;
+  visibility: hidden;
+}
+.view-all button {
+  padding: 16px 17px;
+  background-color: red;
+  width: 127px;
+  border-radius: 5px;
+  text-align: center;
 }
 /* ---------------
 section two css end here
@@ -302,6 +312,9 @@ fotter section is start from here
     margin-left: 21%;
     margin-right: 21%;
   }
+  .view-all {
+    visibility: visible;
+  }
   .footer-nav {
     margin-left: 22px;
     margin-bottom: 25px;
@@ -359,6 +372,7 @@ fotter section is start from here
     width: 250px;
     overflow: hidden;
   }
+
   .footer-container {
     width: 100%;
     height: 100%;
