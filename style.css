@@ -289,22 +289,22 @@ fotter section is start from here
 /* media section two is start from here */
 @media only screen and (max-width: 767px) {
   .container {
-    width: 382px;
+    width: 580px;
     height: 676px;
     margin-left: 67%;
   }
   .banner-image img {
     margin-top: 4%;
-    width: 465px;
-    height: 442px;
-    margin-left: 38px;
+    width: 414px;
+    height: 434px;
+    margin-left: 100px;
   }
   .main-div {
     grid-template-columns: repeat(1, 1fr);
     width: 0;
   }
   .detail {
-    margin-left: -30px;
+    margin-left: 52px;
     text-align: center;
   }
   .detail-title {
@@ -321,7 +321,14 @@ fotter section is start from here
     position: relative;
   }
   .container-two {
-    grid-template-rows: repeat(1fr);
-    margin-top: 295px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 26%;
+    margin-left: 8%;
+    align-items: center;
+    justify-items: center;
+  }
+  .main-container {
+    width: 250px;
   }
 }
