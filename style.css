@@ -327,8 +327,24 @@ fotter section is start from here
     margin-left: 8%;
     align-items: center;
     justify-items: center;
+    overflow: hidden;
   }
   .main-container {
     width: 250px;
+    overflow: hidden;
+  }
+  .footer-container {
+    width: 177%;
+  }
+  .heading {
+    margin-left: 22%;
+  }
+  .footer-hr {
+    margin-left: 283px;
+    width: 50%;
+  }
+  .footer-nav {
+    flex-direction: column;
+    margin-left: 56%;
   }
 }
