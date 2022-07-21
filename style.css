@@ -66,9 +66,18 @@ main {
   background-color: #dd0000;
   border-radius: 5px;
 }
+/* animation area */
+.first-button:hover {
+  transform: translateY(35px);
+  transform-origin: top right;
+  transition: 3s ease-in-out;
+}
+
+/* end */
 .first-button {
   margin-top: 10%;
 }
+
 .fa-angle-right.margin {
   margin-left: 10px;
 }
@@ -76,6 +85,22 @@ main {
   width: 581px;
   height: 541px;
 }
+/* website two code */
+#container-two-width {
+  width: 312px;
+  height: 242px;
+}
+.main-image-two {
+  width: 252px;
+  height: 56.18px;
+  margin-left: 52px;
+}
+.main-content-two {
+  text-align: center;
+  margin-top: 15%;
+}
+
+/* end */
 .detail {
   margin-top: 5%;
 }
@@ -230,7 +255,7 @@ fotter section is start from here
 }
 
 /* footer css end here */
-/* media section one is start */
+/* media tablet section one is start */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     width: 700px;
@@ -286,7 +311,7 @@ fotter section is start from here
     display: flex;
   }
 }
-/* section one is end here */
+/* section one talet is end here */
 /* media section two is start from here */
 @media only screen and (max-width: 767px) {
   .container {
@@ -350,4 +375,10 @@ fotter section is start from here
     margin-left: 36%;
     width: 100%;
   }
+  .footer-icon {
+    display: flex;
+    align-content: center;
+  }
 }
+
+/* media query mobile verson is end */
