@@ -63,7 +63,7 @@ main {
   text-decoration: none;
   color: white;
   padding: 16px 36px;
-  background-color: #dd0000;
+  background-color: #2d8b3a;
   border-radius: 5px;
 }
 
@@ -140,7 +140,7 @@ main {
   overflow: hidden;
 }
 #bg-color {
-  background-color: red;
+  background-color: #2d8b3a;
 }
 .button-area button a {
   text-decoration: none;
@@ -204,7 +204,7 @@ main {
 }
 .view-all button {
   padding: 16px 17px;
-  background-color: red;
+  background-color: #2d8b3a;
   width: 127px;
   border-radius: 5px;
   text-align: center;
