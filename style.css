@@ -114,12 +114,12 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 10px;
   grid-column-gap: 10px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .main-part {
   width: 1300px;
   margin-left: 50px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .main-container {
   /* box-shadow: 1px 1px 1px 1px gray; */
@@ -137,7 +137,7 @@ main {
   top: 7px;
   width: 262px;
   height: 262px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 #bg-color {
   background-color: #2d8b3a;
